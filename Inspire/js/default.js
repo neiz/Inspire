@@ -49,7 +49,7 @@
         WinJS.xhr({ url: "http://rss.slashdot.org/Slashdot/slashdotLinux" }).then(function (rss) {
             var items = rss.responseXML.querySelectorAll("item");
 
-            for (var n = 0; n < items.length; n++) {
+                var n = Math.round(Math.random(items.length) * items.length)
                 var article = {};
                 article.title = items[n].querySelector("title").textContent;
                 var thumbs = items[n].querySelector("description").textContent;
@@ -57,7 +57,6 @@
                     article.content = items[n].textContent;
                     articlesList.push(article);
                 }
-            }
         });
     }
 

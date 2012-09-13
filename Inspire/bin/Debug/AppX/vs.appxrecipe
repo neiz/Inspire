@@ -16,13 +16,13 @@
     <AppXManifest Include="C:\Users\Neil\Desktop\rss\Inspire\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-09-11T01:05:30.473</Modified>
+      <Modified>2012-09-13T00:31:28.245</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-09-11T00:58:20.096</Modified>
+      <Modified>2012-09-13T00:35:42.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -46,11 +46,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-09-11T01:02:15.915</Modified>
+      <Modified>2012-09-13T00:49:27.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-08-21T23:52:26.000</Modified>
+      <Modified>2012-09-13T01:04:59.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
