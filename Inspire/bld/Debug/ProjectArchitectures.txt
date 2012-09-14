@@ -1,1 +1,1 @@
-C:\Users\Neil\Desktop\rss\Inspire\Inspire.jsproj;neutral
+C:\Sites\Inspire\Inspire\Inspire.jsproj;neutral

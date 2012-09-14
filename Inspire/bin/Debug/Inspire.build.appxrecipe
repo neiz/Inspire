@@ -7,38 +7,38 @@
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Neil\Desktop\rss\Inspire\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Sites\Inspire\Inspire\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\default.html">
+    <AppxPackagedFile Include="C:\Sites\Inspire\Inspire\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\images\logo.png">
+    <AppxPackagedFile Include="C:\Sites\Inspire\Inspire\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Sites\Inspire\Inspire\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\Sites\Inspire\Inspire\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Sites\Inspire\Inspire\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\js\default.js">
+    <AppxPackagedFile Include="C:\Sites\Inspire\Inspire\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\css\default.css">
+    <AppxPackagedFile Include="C:\Sites\Inspire\Inspire\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Neil\Desktop\rss\Inspire\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Sites\Inspire\Inspire\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

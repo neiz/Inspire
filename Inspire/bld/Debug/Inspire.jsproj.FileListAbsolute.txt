@@ -24,3 +24,16 @@ C:\Users\Neil\Desktop\rss\Inspire\bld\Debug\resources.resfiles
 C:\Users\Neil\Desktop\rss\Inspire\bld\Debug\pri.resfiles
 C:\Users\Neil\Desktop\rss\Inspire\bld\Debug\LanguageQualifiers.txt
 C:\Users\Neil\Desktop\rss\Inspire\bld\Debug\ProjectArchitectures.txt
+C:\Sites\Inspire\Inspire\bin\Debug\resources.pri
+C:\Sites\Inspire\Inspire\bin\Debug\AppxManifest.xml
+C:\Sites\Inspire\Inspire\bin\Debug\Inspire.build.appxrecipe
+C:\Sites\Inspire\Inspire\bld\Debug\priconfig.xml.intermediate
+C:\Sites\Inspire\Inspire\bld\Debug\layout.resfiles.intermediate
+C:\Sites\Inspire\Inspire\bld\Debug\resources.resfiles.intermediate
+C:\Sites\Inspire\Inspire\bld\Debug\pri.resfiles.intermediate
+C:\Sites\Inspire\Inspire\bld\Debug\priconfig.xml
+C:\Sites\Inspire\Inspire\bld\Debug\layout.resfiles
+C:\Sites\Inspire\Inspire\bld\Debug\resources.resfiles
+C:\Sites\Inspire\Inspire\bld\Debug\pri.resfiles
+C:\Sites\Inspire\Inspire\bld\Debug\LanguageQualifiers.txt
+C:\Sites\Inspire\Inspire\bld\Debug\ProjectArchitectures.txt
