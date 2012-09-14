@@ -48,17 +48,18 @@
 
     function downloadC9BlogFeed() {
         WinJS.xhr({ url: "http://rss.slashdot.org/Slashdot/slashdotLinux" }).then(function (rss) {
-
                 var items = rss.responseXML.querySelectorAll("item");
 
             var n = Math.round(Math.random(items.length) * items.length)
             var article = {};
-            article.title = items[n].querySelector("title").textContent;
-            var thumbs = items[n].querySelector("description").textContent;
-            if (thumbs.length > 1) {
-                article.content = items[n].textContent;
-                articlesList.length = 0;
-                articlesList.push(article);
+            if (items[n] != null) {
+                article.title = items[n].querySelector("title").textContent;
+                var thumbs = items[n].querySelector("description").textContent;
+                if (thumbs.length > 1) {
+                    article.content = items[n].textContent;
+                    articlesList.length = 0;
+                    articlesList.push(article);
+                }
             }
         }).done(function () { var setTimer = setInterval(downloadC9BlogFeed, 1800); });
     }
