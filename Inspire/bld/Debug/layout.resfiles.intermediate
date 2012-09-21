@@ -5,3 +5,5 @@ images\smalllogo.png
 images\splashscreen.png
 images\storelogo.png
 js\default.js
+js\jquery.min.js
+js\jquery-ui-1.8.23.custom.min.js

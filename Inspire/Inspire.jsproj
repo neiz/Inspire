@@ -60,6 +60,8 @@
     <Content Include="images\storelogo.png" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
+    <Content Include="js\jquery-ui-1.8.23.custom.min.js" />
+    <Content Include="js\jquery.min.js" />
     <None Include="Inspire_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

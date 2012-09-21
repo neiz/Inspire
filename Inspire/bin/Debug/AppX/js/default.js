@@ -46,6 +46,15 @@
         WinJS.UI.Animation.enterPage(articlecontent);
     }
 
+    function get_random_color() {
+        var letters = '0123456789ABCDEF'.split('');
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.round(Math.random() * 15)];
+        }
+        return color;
+    }
+
     function downloadC9BlogFeed() {
         WinJS.xhr({ url: "http://rss.slashdot.org/Slashdot/slashdotLinux" }).then(function (rss) {
                 var items = rss.responseXML.querySelectorAll("item");
@@ -59,9 +68,10 @@
                     article.content = items[n].textContent;
                     articlesList.length = 0;
                     articlesList.push(article);
+                    document.body.style.background = get_random_color();
                 }
             }
-        }).done(function () { var setTimer = setInterval(downloadC9BlogFeed, 1800); });
+        }).done(function () { setTimeout(downloadC9BlogFeed, 2000); });
     }
 
     app.oncheckpoint = function (args) {
